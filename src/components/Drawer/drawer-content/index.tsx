@@ -37,13 +37,13 @@ function NavContent() {
     return (
         <div className="dapp-sidebar">
             <div className="branding-header">
-                <Link href="https://wonderland.money" target="_blank">
+                <Link href="https://taro.finance" target="_blank">
                     <img alt="" src={WonderlandIcon} />
                 </Link>
 
                 {address && (
                     <div className="wallet-link">
-                        <Link href={`https://cchain.explorer.avax.network/address/${address}`} target="_blank">
+                        <Link href={`https://blockexplorer.boba.network//address/${address}`} target="_blank">
                             <p>{shorten(address)}</p>
                         </Link>
                     </div>
