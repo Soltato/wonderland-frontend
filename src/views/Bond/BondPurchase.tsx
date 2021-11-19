@@ -172,7 +172,11 @@ function BondPurchase({ bond, slippage, recipientAddress }: IBondPurchaseProps) 
                         <p>{txnButtonText(pendingTransactions, "approve_" + bond.name, "Approve")}</p>
                     </div>
                 )}
-                
+
+                <div className="transaction-button bond-approve-btn" onClick={handleZapinOpen}>
+                    <p>Zap</p>
+                </div>
+
                 {!hasAllowance() && !useAvax && (
                     <div className="help-text">
                         <p className="help-text-desc">
