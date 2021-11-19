@@ -18,8 +18,8 @@ export const mim = new StableBond({
     reserveContractAbi: StableReserveContract,
     networkAddrs: {
         [Networks.AVAX]: {
-            bondAddress: "0x694738E0A438d90487b4a549b201142c1a97B556",
-            reserveAddress: "0x130966628846BFd36ff31a822705796e8cb8C18D",
+            bondAddress: "0x0C8E956631b051Ae2E3b820Bbc2fDC5c6D106745",
+            reserveAddress: "0xe9e7cea3dedca5984780bafc599bd69add087d56",
         },
     },
 });
