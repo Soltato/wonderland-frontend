@@ -3,7 +3,7 @@ import { Networks } from "../constants/blockchain";
 const switchRequest = () => {
     return window.ethereum.request({
         method: "wallet_switchEthereumChain",
-        params: [{ chainId: "0x120" }],
+        params: [{ chainId: "0x38" }],
     });
 };
 
@@ -12,8 +12,8 @@ const addChainRequest = () => {
         method: "wallet_addEthereumChain",
         params: [
             {
-                chainId: "0x120",
-                chainName: "Boba Network",
+                chainId: "0x38",
+                chainName: "BSC Network",
                 rpcUrls: ["https://mainnet.bota.network"],
                 blockExplorerUrls: ["https://blockexplorer.boba.network"],
                 nativeCurrency: {
