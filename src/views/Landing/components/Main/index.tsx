@@ -12,7 +12,7 @@ function Main() {
             <div className="landing-main-btns-wrap">
                 <Link href="https://app.taro.finance" target="_blank" rel="noreferrer">
                     <div className="landing-main-btn">
-                        <p>Enter App</p>
+                        <p>Enter App [Branch A]</p>
                     </div>
                 </Link>
                 <Link href="https://wonderland.gitbook.io/wonderland/" target="_blank" rel="noreferrer">
